@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 开机启动 -->
+
+    <RelativeLayout
+        android:id="@+id/rel_setting_autostart"
+        style="@style/setting_item_style" >
+
+        <TextView
+            android:id="@+id/tv_start"
+            style="@style/setting_textview_style"
+            android:text="开机启动" />
+
+        <!-- toogle:触发器 -->
+
+        <ToggleButton
+            android:id="@+id/tb_start"
+            style="@style/setting_item_ToggleButton" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_setting_notification"
+        style="@style/setting_item_style" >
+
+        <TextView
+            android:id="@+id/tv_notification"
+            style="@style/setting_textview_style"
+            android:text="通知图标" />
+
+        <ToggleButton
+            android:id="@+id/tb_notification"
+            style="@style/setting_item_ToggleButton" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_setting_message"
+        style="@style/setting_item_style" >
+
+        <TextView
+            android:id="@+id/tv_message"
+            style="@style/setting_textview_style"
+            android:text="消息推送" />
+
+        <ToggleButton
+            android:id="@+id/tb_message"
+            style="@style/setting_item_ToggleButton" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_setting_help"
+        style="@style/setting_item_style" >
+
+        <TextView
+            android:id="@+id/tv_help"
+            style="@style/setting_textview_style"
+            android:text="帮助说明" />
+
+        <ImageView
+            android:id="@+id/tb_help"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_setting_advice"
+        style="@style/setting_item_style" >
+
+        <TextView
+            android:id="@+id/tv_advice"
+            style="@style/setting_textview_style"
+            android:text="意见反馈" />
+
+        <ImageView
+            android:id="@+id/tb_advice"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_setting_share"
+        style="@style/setting_item_style" >
+
+        <TextView
+            android:id="@+id/tv_share"
+            style="@style/setting_textview_style"
+            android:text="好友分享" />
+
+        <ImageView
+            android:id="@+id/tb_share"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_setting_update"
+        style="@style/setting_item_style" >
+
+        <TextView
+            android:id="@+id/tv_update"
+            style="@style/setting_textview_style"
+            android:text="版本更新" />
+
+        <ImageView
+            android:id="@+id/tb_update"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_setting_download6"
+        style="@style/setting_item_style" >
+
+        <TextView
+            android:id="@+id/tv_download6"
+            style="@style/setting_textview_style"
+            android:text="蓝牙管理" />
+
+        <ImageView
+            android:id="@+id/tb_download6"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_setting_download"
+        style="@style/setting_item_style" >
+
+        <TextView
+            android:id="@+id/tv_download"
+            style="@style/setting_textview_style"
+            android:text="下载管理" />
+
+        <ImageView
+            android:id="@+id/tb_download"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_setting_about"
+        style="@style/setting_item_style" >
+
+        <TextView
+            android:id="@+id/tv_about"
+            style="@style/setting_textview_style"
+            android:text="关于我们" />
+
+        <ImageView
+            android:id="@+id/tb_about"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+</LinearLayout>

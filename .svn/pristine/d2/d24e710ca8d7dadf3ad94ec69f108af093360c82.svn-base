@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_all"
+        style="@style/file_listitem" >
+
+        <!-- all左侧文本 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/app_listitem_text"
+                android:text="全部" />
+
+            <TextView
+                android:id="@+id/tv_filemgr_all"
+                style="@style/app_listitem_text_small"
+                android:text="0B" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_filemgr_all"
+            style="@style/app_listitem_righticon"
+            android:visibility="invisible" />
+
+        <ProgressBar
+            android:id="@+id/pb_all_loading"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:indeterminateDrawable="@drawable/progress_roate" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_doxc"
+        style="@style/file_listitem" >
+
+        <!-- doxc左侧文本 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/app_listitem_text"
+                android:text="文档" />
+
+            <TextView
+                android:id="@+id/tv_filemgr_doxc"
+                style="@style/app_listitem_text_small"
+                android:text="0B" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_filemgr_doxc"
+            style="@style/app_listitem_righticon" 
+            android:visibility="invisible" />
+
+        <ProgressBar
+            android:id="@+id/pb_doxc_loading"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:indeterminateDrawable="@drawable/progress_roate" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_video"
+        style="@style/file_listitem" >
+
+        <!-- video左侧文本 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/app_listitem_text"
+                android:text="视频" />
+
+            <TextView
+                android:id="@+id/tv_filemgr_video"
+                style="@style/app_listitem_text_small"
+                android:text="0B" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_filemgr_video"
+            style="@style/app_listitem_righticon"
+            android:visibility="invisible"  />
+
+        <ProgressBar
+            android:id="@+id/pb_video_loading"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:indeterminateDrawable="@drawable/progress_roate" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_music"
+        style="@style/file_listitem" >
+
+        <!-- music左侧文本 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/app_listitem_text"
+                android:text="音频" />
+
+            <TextView
+                android:id="@+id/tv_filemgr_music"
+                style="@style/app_listitem_text_small"
+                android:text="0B" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_filemgr_music"
+            style="@style/app_listitem_righticon"
+            android:visibility="invisible"  />
+
+        <ProgressBar
+            android:id="@+id/pb_music_loading"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:indeterminateDrawable="@drawable/progress_roate" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_img"
+        style="@style/file_listitem" >
+
+        <!-- img左侧文本 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/app_listitem_text"
+                android:text="图像" />
+
+            <TextView
+                android:id="@+id/tv_filemgr_img"
+                style="@style/app_listitem_text_small"
+                android:text="0B" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_filemgr_img"
+            style="@style/app_listitem_righticon"
+            android:visibility="invisible"  />
+
+        <ProgressBar
+            android:id="@+id/pb_img_loading"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:indeterminateDrawable="@drawable/progress_roate" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_apk"
+        style="@style/file_listitem" >
+
+        <!-- apk左侧文本 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/app_listitem_text"
+                android:text="程序包" />
+
+            <TextView
+                android:id="@+id/tv_filemgr_apk"
+                style="@style/app_listitem_text_small"
+                android:text="0B" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_filemgr_apk"
+            style="@style/app_listitem_righticon"
+            android:visibility="invisible"  />
+
+        <ProgressBar
+            android:id="@+id/pb_apk_loading"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:indeterminateDrawable="@drawable/progress_roate" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_zip"
+        style="@style/file_listitem" >
+
+        <!-- zip左侧文本 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/app_listitem_text"
+                android:text="压缩包" />
+
+            <TextView
+                android:id="@+id/tv_filemgr_zip"
+                style="@style/app_listitem_text_small"
+                android:text="0B" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_filemgr_zip"
+            style="@style/app_listitem_righticon"
+            android:visibility="invisible"  />
+
+        <ProgressBar
+            android:id="@+id/pb_zip_loading"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:indeterminateDrawable="@drawable/progress_roate" />
+    </RelativeLayout>
+
+</LinearLayout>

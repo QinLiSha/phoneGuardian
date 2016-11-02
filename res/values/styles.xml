@@ -1,0 +1,115 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- setting页面中每一个item的样式 -->
+    <style name="setting_item_style">
+        <item name="android:contentDescription">设置每一个item的Style</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/setting_item_entry</item>
+        <item name="android:onClick">hitSettingItem</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- setting页面中textView的Style -->
+    <style name="setting_textview_style">
+        <item name="android:contentDescription">设置每个textview的style</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <!-- 设置右边的item属性 -->
+
+    <style name="setting_item_right">
+        <item name="android:contentDescription">设置每个item的右边的style</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:src">@drawable/ic_arrows_right</item>
+        <item name="android:onClick">hitSettingItem</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="setting_item_ToggleButton" parent="setting_item_right">
+        <item name="android:background">@drawable/setting_toggle_entry</item>
+        <item name="android:textOff"></item>
+        <item name="android:textOn"></item>
+    </style>
+
+    <style name="home_score_list_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:onClick">hitHomeitem</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- 软件管理的条目显示 -->
+    <style name="app_listitem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:onClick">hitListitem</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- 软件管理的条目显示 -->
+    <style name="app_listitem_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="app_listitem_text_small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="app_listitem_righticon_loading"></style>
+
+    <style name="app_listitem_righticon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:src">@drawable/ic_arrows_right</item>
+    </style>
+    
+      <!-- 文件管理的条目显示 -->
+    <style name="file_listitem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+</resources>

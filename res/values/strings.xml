@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安全大师</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_lead">安全大师</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_images">ImagesActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_speed_up">SpeedUpActivity</string>
+    <string name="title_activity_tel_mgr">TelMgrActivity</string>
+    <string name="title_activity_file_mar">FileMarActivity</string>
+    <string name="title_activity_phone_mgr">PhoneMgrActivity</string>
+    <string name="title_activity_telmgr_show">TelmgrShowActivity</string>
+    <string name="title_activity_clean">CleanActivity</string>
+    <string name="title_activity_softmrg">SoftmrgActivity</string>
+    <string name="title_activity_soft_mgr_show">SoftMgrShowActivity</string>
+    <string name="title_activity_file_mgr_show">FileMgrShowActivity</string>
+
+</resources>

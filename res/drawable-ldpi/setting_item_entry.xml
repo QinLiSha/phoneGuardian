@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- selector安卓中得的一个选择器 :当选中时一种状态, 未选中时是另一种状态 -->
+
+    <item android:drawable="@drawable/home_entry_item_pressed" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/home_entry_item_narmal"  android:state_pressed="false"></item>
+	
+</selector>

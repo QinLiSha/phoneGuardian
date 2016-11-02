@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/setting_item_entry"
+    android:padding="10dp" >
+
+    <CheckBox
+        android:id="@+id/cb_app_clear_mrg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/check_crooct" />
+
+      <TextView
+          android:id="@+id/tv_app_lable_clear"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/cb_app_clear_mrg"
+          android:layout_alignBottom="@+id/cb_app_clear_mrg"
+          android:layout_centerHorizontal="true"
+          android:text="飞秋"
+          android:textSize="18sp" />
+
+      <TextView
+          android:id="@+id/tv_app_size"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:layout_marginRight="16dp"
+          android:text="15.5M"
+          android:textSize="16sp" />
+
+      <ImageView
+          android:id="@+id/iv_app_icon_clear"
+          android:layout_width="60dp"
+          android:layout_height="40dp"
+          android:layout_alignTop="@+id/cb_app_clear_mrg"
+          android:layout_toRightOf="@+id/cb_app_clear_mrg" />
+
+</RelativeLayout>

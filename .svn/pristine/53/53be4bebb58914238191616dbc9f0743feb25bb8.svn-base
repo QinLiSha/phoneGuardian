@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/soft_classlist_all"
+        style="@style/app_listitem" >
+
+        <TextView
+            style="@style/app_listitem_text"
+            android:text="所有软件" />
+
+        <ImageView
+            android:id="@+id/soft_all_righticon"
+            style="@style/app_listitem_righticon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/soft_classlist_system"
+        style="@style/app_listitem" >
+
+        <TextView
+            style="@style/app_listitem_text"
+            android:text="系统软件" />
+
+        <ImageView
+            android:id="@+id/soft_system_righticon"
+            style="@style/app_listitem_righticon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/soft_classlist_user"
+        style="@style/app_listitem" >
+
+        <TextView
+            style="@style/app_listitem_text"
+            android:text="用户软件" />
+
+        <ImageView
+            android:id="@+id/soft_user_righticon"
+            style="@style/app_listitem_righticon" />
+    </RelativeLayout>
+
+</LinearLayout>
