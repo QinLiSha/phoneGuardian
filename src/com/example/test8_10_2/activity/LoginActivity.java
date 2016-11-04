@@ -11,6 +11,8 @@ import android.widget.ImageView;
 
 public class LoginActivity extends Activity {
 
+
+
 	private ImageView iv_login;
 	
 	@Override
